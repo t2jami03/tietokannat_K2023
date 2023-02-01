@@ -1,0 +1,11 @@
+mysql> SELECT name FROM language ORDER BY name ASC;
++----------+
+| name     |
++----------+
+| English  |
+| French   |
+| German   |
+| Italian  |
+| Japanese |
+| Mandarin |
++----------+
