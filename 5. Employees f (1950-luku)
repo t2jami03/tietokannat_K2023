@@ -1,0 +1,6 @@
+mysql> SELECT COUNT(*) FROM employees WHERE birth_date >= '1950-1-1' AND birth_date <= '1959-12-31';
++----------+
+| COUNT(*) |
++----------+
+|   182886 |
++----------+
