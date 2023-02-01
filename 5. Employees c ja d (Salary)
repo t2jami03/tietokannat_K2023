@@ -1,0 +1,24 @@
+mysql> SELECT MAX(salary) FROM salaries;
++-------------+
+| MAX(salary) |
++-------------+
+|      158220 |
++-------------+
+1 row in set (0.58 sec)
+
+mysql>
+mysql> SELECT MIN(salary) FROM salaries;
++-------------+
+| MIN(salary) |
++-------------+
+|       38623 |
++-------------+
+1 row in set (0.60 sec)
+
+mysql> SELECT AVG(salary) FROM salaries;
++-------------+
+| AVG(salary) |
++-------------+
+|  63810.7448 |
++-------------+
+1 row in set (0.67 sec)
