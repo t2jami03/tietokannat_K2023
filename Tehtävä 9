@@ -29,17 +29,20 @@ mysql> SELECT * FROM opintojakso;
 
 
 
-mysql> select * from arvioinnit;
+mysql> SELECT * FROM arvioinnit ORDER BY idOpiskelija ASC;
 +--------------+---------+----------+----------+------------+---------------+---------------+
 | idOpiskelija | Etunimi | Sukunimi | arvosana | paivamaara | nimi          | idOpintojakso |
 +--------------+---------+----------+----------+------------+---------------+---------------+
 |            1 | Aku     | Ankka    |        1 | 2014-09-05 | Tietokannat   |             3 |
+|            1 | Aku     | Ankka    |        1 | 2014-09-05 | Fysiikka 3    |             5 |
 |            1 | Aku     | Ankka    |        0 | 2014-09-05 | Ruotsin kieli |             9 |
 |            2 | Roope   | Ankka    |        2 | 2014-09-05 | Fysiikka 3    |             5 |
+|            2 | Roope   | Ankka    |        4 | 2014-09-05 | Tietokannat   |             3 |
 |            3 | Iines   | Ankka    |        4 | 2014-09-05 | Tietokannat   |             3 |
 |            3 | Iines   | Ankka    |        3 | 2014-09-05 | Fysiikka 3    |             5 |
 |            4 | Mikki   | Hiiri    |        5 | 2014-09-05 | Tietokannat   |             3 |
+|            4 | Mikki   | Hiiri    |        4 | 2014-09-05 | Fysiikka 3    |             5 |
 |            5 | Hessu   | Hopo     |        5 | 2014-09-05 | Fysiikka 3    |             5 |
 |            5 | Hessu   | Hopo     |        1 | 2014-09-05 | Tietokannat   |             3 |
 +--------------+---------+----------+----------+------------+---------------+---------------+
-8 rows in set (0.00 sec)
+11 rows in set (0.00 sec)
