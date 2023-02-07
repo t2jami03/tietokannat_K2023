@@ -1,7 +1,0 @@
-mysql> SELECT gender,count(*) FROM employees GROUP BY gender;
-+--------+----------+
-| gender | count(*) |
-+--------+----------+
-| M      |   179973 |
-| F      |   120051 |
-+--------+----------+
